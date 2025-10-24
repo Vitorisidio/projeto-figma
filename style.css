@@ -1,0 +1,40 @@
+:root {
+        --primary-color: #1E1E1E;
+        --secundary-color: #EB8366;
+        --third-color: #D9D9D9;
+        --fourth-color: #FFA502;
+        --fifth-color: #DD9FFF;
+        --sixth-color: #D9D9D9;
+        --seventh-color: #565656;
+
+
+
+}
+
+body {
+        height: 100vh;
+        background-color: var(--secundary-color);
+        padding: 70px 45px;
+        font-family: Righteous, sans-serif;
+        display: flex;
+        flex-direction: column;
+}
+
+.black {
+        display: flex;
+        height: 1000px;
+        background-color: var(--primary-color);
+
+
+}
+
+header {
+       
+        background-color: var(--primary-color);
+        
+
+}
+
+.asterisco{
+       margin: 35px;
+}
