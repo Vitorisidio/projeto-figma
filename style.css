@@ -24,85 +24,101 @@ header {
         display: flex;
         height: 76px;
         background-color: var(--primary-color);
-        margin: 70px 45px 0px 45px; /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */ 
+        margin: 70px 45px 0px 45px;
+        /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
         align-items: center;
 }
 
 .asterisco img {
-        padding: 33px 0px 8px 34px;/*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */ 
+        padding: 33px 0px 8px 34px;
+        /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
 }
 
 .sales {
         color: var(--sixth-color);
-        position: relative; /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
-        right: 250px;   /* move pra esquerda */        
-        padding: 38px 0px 12px 27px;/*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */ 
+        position: relative;
+        /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
+        right: 250px;
+        /* move pra esquerda */
+        padding: 38px 0px 12px 27px;
+        /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
 }
 
-.options{
+.options {
         color: var(--sixth-color);
-        position: relative; /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
-        left: 268px;   /* move pra direita */
-        padding: 38px 0px 12px 0px;/*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */  
+        position: relative;
+        /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
+        left: 268px;
+        /* move pra direita */
+        padding: 38px 0px 12px 0px;
+        /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
 }
 
-.login{
+.login {
         color: var(--sixth-color);
-        position: relative; /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
-        left: 630px;   /* move pra direita */
-        padding: 38px 0px 12px 0px;/*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */ 
+        position: relative;
+        /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
+        left: 630px;
+        /* move pra direita */
+        padding: 38px 0px 12px 0px;
+        /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
 }
 
 
-.retangulo{
-        position: relative; /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
-        left: 1660px;   /* move pra direita */
-         top: -1px;
-        padding: 38px 0px 12px 0px;/*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */ 
-
-}
-
-
-.retangulo img{
+.retangulo img {
         width: 220px;
+        /* largura do retangulo */
         height: 48px;
-        position: relative; /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
-        right: 40px;   /* move pra direita */
+        /* tamanho do retangulo */
+        position: relative;
+        /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
+        left: 1620px;
+        /* move pra direita */
+        top: 12px;
 }
 
-.start{
+.start {
 
         color: var(--sixth-color);
-        position: relative; /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
-        left: 770px;   /* move pra direita */
-        padding: 38px 0px 12px 0px;/*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */  
+        position: relative;
+        /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
+        left: 770px;
+        /* move pra direita */
+        padding: 38px 0px 12px 0px;
+        /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
 
 
 }
 
-.telefone{
+.telefone {
 
-         position: relative; /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
-        left: 1330px;   /* move pra direita */
-         top: -1px;
-        padding: 38px 0px 12px 0px;/*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */ 
+        position: relative;
+        /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
+        left: 1330px;
+        /* move pra direita */
+        top: -1px;
+        padding: 38px 0px 12px 0px;
+        /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
 
 
 }
 
 /*---------------------------------------------- MAIN---------------------------------------------- */
 
-.black {
+main {
         display: flex;
+        flex-direction: column;
         height: 757px;
         background-color: var(--primary-color);
-        margin: 0px 45px 70px 45px;/* cima, direita, baixo, esquerda */
-
+        margin: 0px 45px 70px 45px;
 }
 
-main {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-}
 
+
+
+
+.modelo {
+     
+
+
+}
