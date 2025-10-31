@@ -22,103 +22,71 @@ body {
 /*---------------------------------------------- HEADER/*---------------------------------------------- */
 header {
         display: flex;
-        height: 76px;
         background-color: var(--primary-color);
         margin: 70px 45px 0px 45px;
         /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
-        align-items: center;
+        justify-content: space-between;
 }
 
-.asterisco img {
-        padding: 33px 0px 8px 34px;
-        /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
+.container1 {
+        display: flex;
+        color: var(--third-color);
 }
 
-.sales {
-        color: var(--sixth-color);
-        position: relative;
-        /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
-        right: 250px;
-        /* move pra esquerda */
-        padding: 38px 0px 12px 27px;
-        /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
+h3 {
+        margin: 47px 0px 13px 27px;
+
 }
 
-.options {
-        color: var(--sixth-color);
-        position: relative;
-        /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
-        left: 268px;
-        /* move pra direita */
-        padding: 38px 0px 12px 0px;
-        /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
+.asterisco {
+        margin: 38px 0px 8px 34px;
+
 }
 
-.login {
-        color: var(--sixth-color);
-        position: relative;
-        /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
-        left: 630px;
-        /* move pra direita */
-        padding: 38px 0px 12px 0px;
-        /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
+.container2 {
+        display: flex;
+        color: var(--third-color);
+        margin: 0px 86px 0px 10px
+
+
+}
+
+.container3 {
+        display: flex;
+        color: var(--third-color);
+}
+
+.login{
+margin: 50px 76px 0px 10px
+
 }
 
 
-.retangulo img {
-        width: 220px;
-        /* largura do retangulo */
-        height: 48px;
-        /* tamanho do retangulo */
-        position: relative;
-        /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
-        left: 1620px;
-        /* move pra direita */
-        top: 12px;
+.telefone{
+        margin: 35px 27px 0px 0px;
 }
+
+
+
 
 .start {
-
-        color: var(--sixth-color);
-        position: relative;
-        /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
-        left: 770px;
-        /* move pra direita */
-        padding: 38px 0px 12px 0px;
-        /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
-
-
-}
-
-.telefone {
-
-        position: relative;
-        /*faz o elemento ficar na posição normal dele, mas permite movê-lo para os lados: left, right, top(para baixo e se add: "-" ele move para cima */
-        left: 1330px;
-        /* move pra direita */
-        top: -1px;
-        padding: 38px 0px 12px 0px;
-        /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
-
-
-}
-
-/*---------------------------------------------- MAIN---------------------------------------------- */
-
-main {
+        margin: 38px 20px 8px 0px;
+        width: 200px;
+        height: 39px;
+        background-color: var(--seventh-color);
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+
+}
+
+
+/*---------------------------------------------- main/*---------------------------------------------- */
+
+main{
+       display: flex;
         height: 757px;
         background-color: var(--primary-color);
-        margin: 0px 45px 70px 45px;
-}
-
-
-
-
-
-.modelo {
-     
-
-
+        margin: 0px 45px 70px 45px;/* cima, direita, baixo, esquerda */
 }
