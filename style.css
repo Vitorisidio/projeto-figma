@@ -14,18 +14,23 @@
 body {
         height: 100vh;
         background-color: var(--secundary-color);
-        font-family: Righteous, sans-serif;
+        font-family: sans-serif;
         display: flex;
         flex-direction: column;
+
 }
 
 /*---------------------------------------------- HEADER/*---------------------------------------------- */
 header {
+           
         display: flex;
-        background-color: var(--primary-color);
         margin: 70px 45px 0px 45px;
         /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
+        background-color: var(--primary-color);
         justify-content: space-between;
+        align-items: center;
+        /* impede que o conteúdo expanda pra fora do container */
+
 }
 
 .container1 {
@@ -46,9 +51,7 @@ h3 {
 .container2 {
         display: flex;
         color: var(--third-color);
-        margin: 0px 86px 0px 10px
-
-
+        margin: 0px 0px 0px 130px
 }
 
 .container3 {
@@ -56,13 +59,12 @@ h3 {
         color: var(--third-color);
 }
 
-.login{
-margin: 50px 76px 0px 10px
-
+.login {
+        margin: 50px 76px 0px 10px
 }
 
 
-.telefone{
+.telefone {
         margin: 35px 27px 0px 0px;
 }
 
@@ -84,9 +86,51 @@ margin: 50px 76px 0px 10px
 
 /*---------------------------------------------- main/*---------------------------------------------- */
 
-main{
-       display: flex;
-        height: 757px;
+main {
+        flex: 1; /*cresce para ocupar todo o espaço disponível dentro do container flex*/
+        display: flex;
         background-color: var(--primary-color);
-        margin: 0px 45px 70px 45px;/* cima, direita, baixo, esquerda */
+        margin: 0px 45px 0px 45px;
+        /* cima, direita, baixo, esquerda */
+        justify-content: space-between;
+        align-items: center;
+        /* impede que o conteúdo expanda pra fora do container */
+}
+
+.direita {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direita img{
+
+        height: 25vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------- rodapé/*---------------------------------------------- */
+
+footer {
+
+        display: flex;
+        background-color: var(--primary-color);
+        margin: 0px 45px 70px 45px;
+        justify-content: center;
+        align-items: center;
+                     
+
+  
+        /* impede que o conteúdo expanda pra fora do container */
+
 }
