@@ -12,17 +12,14 @@
 }
 
 body {
-        height: 100vh;
         background-color: var(--secundary-color);
         font-family: sans-serif;
-        display: flex;
-        flex-direction: column;
-
+        
 }
 
 /*---------------------------------------------- HEADER/*---------------------------------------------- */
 header {
-           
+
         display: flex;
         margin: 70px 45px 0px 45px;
         /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
@@ -87,34 +84,207 @@ h3 {
 /*---------------------------------------------- main/*---------------------------------------------- */
 
 main {
-        flex: 1; /*cresce para ocupar todo o espaço disponível dentro do container flex*/
+
         display: flex;
         background-color: var(--primary-color);
         margin: 0px 45px 0px 45px;
         /* cima, direita, baixo, esquerda */
         justify-content: space-between;
+        color: #D9D9D9;
+        height: 750px;
+}
+
+
+.M {
+
+        display: flex;
+        margin-top: 72px;
+        margin-left: 132px;
+
+}
+
+
+h1 {
+        display: flex;
+        margin-top: 41px;
+        font-size: 128px;
+        margin-left: 117px;
+
+
+}
+
+.linhaUm {
+        margin-left: 125px;
+}
+
+.value {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 125px;
+        font-size: 20px;
+
+}
+
+.descricao {
+        display: flex;
+        margin-left: 125px;
+        margin-top: 13px;
+        width: 390px;
+        font-size: 16px;
+
+}
+
+.perfil {
+        display: flex;
+        margin-left: 123px;
+        margin-top: 37px;
+}
+
+.cinza {
+
+        border-radius: 100%;
+        background-color: #565656;
+        width: 37px;
+        height: 37px;
+}
+
+
+
+.nome {
+        margin-left: 10px;
+        font-size: 17px;
+}
+
+.project {
+        font-size: 15px;
+        margin-left: 10px;
+
+}
+
+.linhaDois {
+        margin-left: 125px;
+}
+
+.botao{
+        display: flex;
+}
+
+.retanguloUm {
+        display: flex;
+        height: 36px;
+        width: 142px;
+        background-color: #EB8366;
+        border-radius: 50px;
+        margin-left: 130px;
+        margin-top: 33px;
+        justify-content: center;
         align-items: center;
-        /* impede que o conteúdo expanda pra fora do container */
 }
 
-.direita {
-   display: flex;
-    justify-content: center;
-    align-items: center;
+.apply {
+        font-size: 11px;
 }
 
-.direita img{
+.retanguloDois {
+        display: flex;
+        height: 36px;
+        width: 112px;
+        font-size: 12px;
+        background-color: #565656;
+        border-radius: 50px;
+        margin-left: 9px;
+        margin-top: 33px;
+        justify-content: center;
+        align-items: center;
+}
 
-        height: 25vw;
+
+.direita{
+display: flex;
+}
+
+.laranja{
+
+        display: flex;
+        height: 378px;
+        width: 170px;
+        background-color: #EB8366;
+        border-radius: 75px;
+        justify-content: center;
+        align-items: center;
+
 }
 
 
 
+.branco{
+
+        display: flex;
+        flex-direction: column;
+        height: 176px;
+        width: 178px;
+        background-color: #f0f0f0;
+        color: #1E1E1E;
+        border-radius: 75px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 270px;
+        position: absolute;
+        z-index: 10;
+
+
+}
+
+.quatroX{
+        flex-direction: column;
+        font-size: 76px;
+        margin-top: -20px;
+        
+}
+
+.average{
+        font-size: 15px;
+        margin-left: 30px;
+}
 
 
 
+.amarelo{
 
+        display: flex;
+        flex-direction: column;
+        height: 161px;
+        width: 193px;
+        background-color: #FFA502;
+        border-radius: 75px;
+        justify-content: center;
+        align-items: center;
+        color: #1E1E1E;
 
+}
+
+.setenta{
+        flex-direction: column;
+        font-size: 76px;
+        margin-top: -20px;
+
+}
+
+.reduce{
+        width: 150px;
+}
+
+.roxo{
+
+        display: flex;
+        height: 270px;
+        width: 189px;
+        background-color: #DD9FFF;
+        border-radius: 75px;
+        justify-content: center;
+        align-items: center;
+
+}
 
 
 
@@ -128,9 +298,9 @@ footer {
         margin: 0px 45px 70px 45px;
         justify-content: center;
         align-items: center;
-                     
 
-  
+
+
         /* impede que o conteúdo expanda pra fora do container */
 
 }
