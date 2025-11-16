@@ -6,20 +6,15 @@
         --fifth-color: #DD9FFF;
         --sixth-color: #D9D9D9;
         --seventh-color: #565656;
-
-
-
 }
 
 body {
         background-color: var(--secundary-color);
         font-family: sans-serif;
-        
 }
 
 /*---------------------------------------------- HEADER/*---------------------------------------------- */
 header {
-
         display: flex;
         margin: 70px 45px 0px 45px;
         /*define o espaçamento interno nessa ordem: cima, direita, baixo, esquerda */
@@ -27,7 +22,6 @@ header {
         justify-content: space-between;
         align-items: center;
         /* impede que o conteúdo expanda pra fora do container */
-
 }
 
 .container1 {
@@ -37,12 +31,10 @@ header {
 
 h3 {
         margin: 47px 0px 13px 27px;
-
 }
 
 .asterisco {
         margin: 38px 0px 8px 34px;
-
 }
 
 .container2 {
@@ -60,13 +52,9 @@ h3 {
         margin: 50px 76px 0px 10px
 }
 
-
 .telefone {
         margin: 35px 27px 0px 0px;
 }
-
-
-
 
 .start {
         margin: 38px 20px 8px 0px;
@@ -77,14 +65,11 @@ h3 {
         justify-content: center;
         align-items: center;
         border-radius: 50px;
-
 }
-
 
 /*---------------------------------------------- main/*---------------------------------------------- */
 
 main {
-
         display: flex;
         background-color: var(--primary-color);
         margin: 0px 45px 0px 45px;
@@ -94,23 +79,17 @@ main {
         height: 750px;
 }
 
-
 .M {
-
         display: flex;
         margin-top: 72px;
         margin-left: 132px;
-
 }
-
 
 h1 {
         display: flex;
         margin-top: 41px;
         font-size: 128px;
         margin-left: 117px;
-
-
 }
 
 .linhaUm {
@@ -122,7 +101,6 @@ h1 {
         justify-content: space-between;
         margin-left: 125px;
         font-size: 20px;
-
 }
 
 .descricao {
@@ -131,7 +109,6 @@ h1 {
         margin-top: 13px;
         width: 390px;
         font-size: 16px;
-
 }
 
 .perfil {
@@ -141,14 +118,11 @@ h1 {
 }
 
 .cinza {
-
         border-radius: 100%;
         background-color: #565656;
         width: 37px;
         height: 37px;
 }
-
-
 
 .nome {
         margin-left: 10px;
@@ -158,14 +132,13 @@ h1 {
 .project {
         font-size: 15px;
         margin-left: 10px;
-
 }
 
 .linhaDois {
         margin-left: 125px;
 }
 
-.botao{
+.botao {
         display: flex;
 }
 
@@ -183,6 +156,7 @@ h1 {
 
 .apply {
         font-size: 11px;
+        color: #1E1E1E;
 }
 
 .retanguloDois {
@@ -198,13 +172,17 @@ h1 {
         align-items: center;
 }
 
-
-.direita{
-display: flex;
+.direita {
+        display: flex;
+        margin-top: 133px;
+        margin-left: 236px;
 }
 
-.laranja{
+.containerTablet {
+        display: flex;
+}
 
+.laranja {
         display: flex;
         height: 378px;
         width: 170px;
@@ -212,13 +190,11 @@ display: flex;
         border-radius: 75px;
         justify-content: center;
         align-items: center;
-
 }
 
 
 
-.branco{
-
+.branco {
         display: flex;
         flex-direction: column;
         height: 176px;
@@ -231,26 +207,22 @@ display: flex;
         margin-top: 270px;
         position: absolute;
         z-index: 10;
-
-
 }
 
-.quatroX{
+.quatroX {
         flex-direction: column;
         font-size: 76px;
         margin-top: -20px;
-        
 }
 
-.average{
+.average {
         font-size: 15px;
         margin-left: 30px;
 }
 
 
 
-.amarelo{
-
+.amarelo {
         display: flex;
         flex-direction: column;
         height: 161px;
@@ -260,22 +232,19 @@ display: flex;
         justify-content: center;
         align-items: center;
         color: #1E1E1E;
-
 }
 
-.setenta{
+.setenta {
         flex-direction: column;
         font-size: 76px;
         margin-top: -20px;
-
 }
 
-.reduce{
+.reduce {
         width: 150px;
 }
 
-.roxo{
-
+.roxo {
         display: flex;
         height: 270px;
         width: 189px;
@@ -283,7 +252,6 @@ display: flex;
         border-radius: 75px;
         justify-content: center;
         align-items: center;
-
 }
 
 
@@ -292,15 +260,391 @@ display: flex;
 /*---------------------------------------------- rodapé/*---------------------------------------------- */
 
 footer {
-
         display: flex;
         background-color: var(--primary-color);
         margin: 0px 45px 70px 45px;
         justify-content: center;
         align-items: center;
+        
+}
 
 
 
-        /* impede que o conteúdo expanda pra fora do container */
+/*---------------------------------------------- tablet/*---------------------------------------------- */
 
+
+@media (max-width: 768px) {
+
+        header {
+                margin: 70px 42px 0px 42px;
+        }
+
+        .asterisco {
+                margin: 30px 0px 0px 14px;
+
+        }
+
+        .Sales {
+                display: none;
+        }
+
+        .container2 {
+                margin: 0px 0px 0px 50px;
+                width: 800px;
+                font-size: 13px;
+        }
+
+        .login {
+                margin: 48px 35px 0px 0px;
+                font-size: 13px;
+        }
+
+        .start {
+                margin: 38px 15px 0px 0px;
+                width: 120px;
+                height: 39px;
+                font-size: 12px;
+        }
+
+        .telefone {
+                display: none;
+        }
+
+
+
+        /* MAIN ------------------------------------------------------- */
+
+        main {
+                flex-direction: column;
+                margin: 0px 42px 0px 42px;
+                height: auto;
+        }
+
+        .topoTablet {
+                display: flex;
+                flex-direction: column;
+        }
+
+        .M {
+                order: 3;
+                margin-top: 9px;
+                margin-left: 39px;
+        }
+
+        .linhaUm {
+                order: 2;
+                margin-left: 0px;
+        }
+
+        .linhaUm img {
+                width: 121%;
+        }
+
+        h1 {
+                order: 1;
+        }
+
+        .value {
+                margin-left: 55px;
+                margin-top: 54px;
+                margin-right: 0px;
+                width: 330px;
+                font-size: 13px;
+        }
+
+        .descricao {
+                margin-left: 55px;
+                margin-top: 13px;
+                font-size: 13px;
+                width: 300px;
+        }
+
+        .perfil {
+                margin-left: 55px;
+        }
+
+        .linhaDois {
+                margin-left: 0px;
+                margin-top: 82px;
+        }
+
+        .linhaDois img {
+                width: 121%;
+        }
+
+        .direita {
+                margin-top: 260px;
+                margin-left: -160px;
+        }
+
+        .laranja {
+                height: 211px;
+                width: 100px;
+        }
+
+        .branco {
+                height: 98px;
+                width: 114px;
+                margin-top: 140px;
+        }
+
+        .quatroX {
+                font-size: 34px;
+                margin-top: -10px;
+        }
+
+        .average {
+                font-size: 13px;
+                margin-left: 10px;
+        }
+
+        .amarelo {
+                height: 86px;
+                width: 105px;
+        }
+
+        .setenta {
+                flex-direction: column;
+                font-size: 34px;
+                margin-top: -10px;
+        }
+
+        .reduce {
+                width: 110px;
+                font-size: 12px;
+                margin-left: 20px;
+        }
+
+        .roxo {
+                height: 150px;
+                width: 104px;
+        }
+
+        .homem {
+                height: 191px;
+                width: 90px;
+        }
+
+        .cell {
+                height: 101px;
+                width: 70px;
+        }
+
+        .botao {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+        }
+
+        .retanguloUm {
+                margin-left: 110px;
+        }
+
+        .retanguloDois {
+                margin-left: 110px;
+                width: 142px;
+                margin-top: 10px;
+        }
+
+}
+
+/*---------------------------------------------- rodapé/*---------------------------------------------- */
+
+footer {
+        margin: 0px 42px 70px 42px;
+}
+
+footer img {
+        width: 100%;
+        margin: 70px 42px 0px 42px;
+}
+
+
+/*---------------------------------------------- cell/*---------------------------------------------- */
+
+
+@media (max-width: 360px) {
+
+        /* HEADER ---------------------------------------- */
+
+        header {
+                margin: 40px 20px 0px 20px;
+        }
+
+        .asterisco {
+                display: none;
+        }
+
+        .container2 {
+                margin-left: 10px;
+                margin-top: -9px;
+                font-size: 6px;
+        }
+
+        .start {
+                font-size: 9px;
+                width: 100px;
+                height: 32px;
+                margin: 25px 5px 0px 0px;
+        }
+
+        .login {
+                margin: 35px 15px 0px 0px;
+                font-size: 9px;
+        }
+
+        /* MAIN ------------------------------------------ */
+
+        main {
+                flex-direction: column;
+                margin: 0px 20px;
+        }
+
+        h1 {
+                font-size: 55px;
+                margin-left: 65px;
+                margin-top: 15px;
+        }
+
+        .M {
+                margin-left: -195px;
+                justify-content: center;
+                order: 2;
+        }
+
+        .M img {
+                height: 25px;
+                width: 116px;
+        }
+
+        .linhaUm img {
+                width: 124%;
+        }
+
+        .value {
+                margin-left: -50px;
+                margin-top: 60px;
+                width: 100%;
+                justify-content: center;
+                font-size: 9px;
+                gap: 45px;
+        }
+
+        .cinza {
+                width: 27px;
+                height: 27px;
+                margin-top: -5px;
+        }
+
+        .descricao {
+                margin-left: 0;
+                width: 170px;
+                font-size: 7px;
+                margin-left: 15px;
+        }
+
+        .perfil {
+                margin-left: 10px;
+                margin-top: 25px;
+        }
+
+        .linhaDois img {
+                width: 97%;
+        }
+
+        .linhaDois {
+                margin-top: 45px;
+
+        }
+
+        .nome {
+                font-size: 7px;
+        }
+
+        .project {
+                font-size: 7px;
+        }
+
+
+        .direita {
+                margin-top: 110px;
+                margin-right: -20px;
+                transform: scale(0.7);
+        }
+
+        .laranja {
+                width: 80px;
+                height: 160px;
+        }
+
+        .branco {
+                width: 80px;
+                height: 90px;
+                margin-top: 100px;
+        }
+
+        .quatroX {
+                font-size: 28px;
+                margin-top: -10px;
+        }
+
+        .average {
+                font-size: 11px;
+                margin-left: 0px;
+        }
+
+        .amarelo {
+                width: 85px;
+                height: 80px;
+        }
+
+        .setenta {
+                font-size: 28px;
+        }
+
+        .reduce {
+                font-size: 10px;
+                width: 90px;
+                text-align: center;
+        }
+
+        .roxo {
+                width: 90px;
+                height: 130px;
+        }
+
+        .homem {
+                width: 70px;
+                height: 150px;
+        }
+
+
+
+        .botao {
+                margin-top: 15px;
+                align-items: center;
+                flex-direction: column;
+        }
+
+        .retanguloUm {
+                margin: 0;
+                width: 150px;
+        }
+
+        .retanguloDois {
+                margin: 10px;
+                width: 150px;
+        }
+
+        /* FOOTER ---------------------------------------- */
+
+        footer {
+                margin: 0px 20px 0px 20px;
+                width: auto;
+        }
+
+        footer img {
+                width: 100%;
+                margin: 35px 0px 0px 0px;
+        }
 }
